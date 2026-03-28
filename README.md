@@ -8,8 +8,8 @@ $$
 $$
 
 构造两种源项：
-- 单一频率：$f(x)=\sin(2\pi x)$，解析解 $u(x)=\dfrac{\sin(2\pi x)}{4\pi^2}$。
-- 多频率：$f(x)=\sin(2\pi x)+0.5\sin(10\pi x)$，解析解 $u(x)=\dfrac{\sin(2\pi x)}{4\pi^2}+\dfrac{0.5\sin(10\pi x)}{100\pi^2}$。
+- 单一频率：$f(x)=\sin(2\pi x)$，解析解 $u(x)=\frac{\sin(2\pi x)}{4\pi^2}$。
+- 多频率：$f(x)=\sin(2\pi x)+0.5\sin(10\pi x)$，解析解 $u(x)=\frac{\sin(2\pi x)}{4\pi^2}+\frac{0.5\sin(10\pi x)}{100\pi^2}$。
 
 目的：用 Physics-Informed Neural Networks (PINN) 求解，并对比三种网络在单一频率和多频率下的表现。
 
