@@ -49,16 +49,16 @@ $$
 ### 4.1 单一频率 ($f(x)=\sin(2\pi x)$)
 | 模型 | 相对 L2 误差 | 预测图 |
 |------|--------------|--------|
-| NN   | 2.66e-02     | ![NN single](figures/single_NN.png) |
-| FF   | 9.19e-01     | ![FF single](figures/single_FF.png) |
-| mFF  | 6.51e-01     | ![mFF single](figures/single_mFF.png) |
+| NN   | 2.66e-02     | ![NN single](single_NN.png) |
+| FF   | 9.19e-01     | ![FF single](single_FF.png) |
+| mFF  | 6.51e-01     | ![mFF single](single_mFF.png) |
 
 ### 4.2 多频率 ($f(x)=\sin(2\pi x)+0.5\sin(10\pi x)$)
 | 模型 | 相对 L2 误差 | 预测图 |
 |------|--------------|--------|
-| NN   | 2.26e-01     | ![NN multi](figures/multi_NN.png) |
-| FF   | 5.80e-02     | ![FF multi](figures/multi_FF.png) |
-| mFF  | 1.55e-01     | ![mFF multi](figures/multi_mFF.png) |
+| NN   | 2.26e-01     | ![NN multi](multi_NN.png) |
+| FF   | 5.80e-02     | ![FF multi](multi_FF.png) |
+| mFF  | 1.55e-01     | ![mFF multi](multi_mFF.png) |
 
 *注：mFF 在本次实验中误差略高于 FF，可能由于训练轮数不足或超参数未优化，但其误差仍远小于 NN，验证了多尺度特征的有效性。*
 
